@@ -1,8 +1,7 @@
 import square
 
 size = int(input("introduzca el tamano de su matriz cuadrada\n"))
-column = size
-row = size
+column, row = size , size
 matrix = square.createMatrix(column , row) #inicializo la matriz
 matrix = square.setValues(matrix , column , row)
 square.printMatrix(matrix , row , column)
