@@ -1,3 +1,4 @@
+#date: 13 / 08 / 2017
 import square
 
 size = int(input("introduzca el tamano de su matriz cuadrada\n"))
